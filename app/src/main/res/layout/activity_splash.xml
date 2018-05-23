@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="86dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="508dp"
+            app:srcCompat="@drawable/recicla2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Desenvolvido por Simaw - 2018"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
