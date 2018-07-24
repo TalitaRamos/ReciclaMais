@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Splash">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -20,15 +20,20 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="508dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             app:srcCompat="@drawable/recicla2" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="337dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Desenvolvido por Simaw - 2018"
-            android:textAlignment="textEnd" />
-    </LinearLayout>
+        <ImageView
+            android:id="@+id/logoS"
+            android:layout_width="81dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/logon" />
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

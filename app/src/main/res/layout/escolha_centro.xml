@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="702dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="250dp"
+            android:layout_height="79dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            android:fontFamily="@font/capriola"
+            android:text="Centro de Reciclagem"
+            android:textAlignment="center"
+            android:textColor="@color/greenF"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="330dp"
+            android:layout_height="201dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="208dp"
+            app:srcCompat="@drawable/ic_garbage_truck" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="281dp"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="155dp"
+            android:fontFamily="@font/capriola"
+            android:text="Cadastre seu centro de reciclagem e aumente sua perspectiva de negócio"
+            android:textAlignment="center"
+            android:textColor="@color/greenF"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+</LinearLayout>

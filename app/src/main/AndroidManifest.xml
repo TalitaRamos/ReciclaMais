@@ -27,17 +27,23 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
-        <activity android:name=".cadastro" />
+        <activity
+            android:name=".cadastro"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
-        <activity android:name=".teste" />
-        <activity android:name=".EscolhaUsuarioActivity"></activity>
+        <activity
+            android:name=".EscolhaUsuarioActivity"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".cadastoMorador" />
+        <activity android:name=".cadastroCentro"></activity>
     </application>
 
 </manifest>

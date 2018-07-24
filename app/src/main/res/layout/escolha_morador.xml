@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="250dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:fontFamily="@font/capriola"
+            android:text="Morador"
+            android:textAlignment="center"
+            android:textColor="@color/greenF"
+            android:textSize="30sp"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="208dp"
+            android:layout_height="138dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="186dp"
+            app:srcCompat="@drawable/casa" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="134dp"
+            android:layout_height="117dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="105dp"
+            android:layout_marginTop="254dp"
+            android:backgroundTint="@color/greenF"
+            app:srcCompat="@drawable/ic_throw_to_paper_bin" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="252dp"
+            android:layout_height="94dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="151dp"
+            android:fontFamily="@font/capriola"
+            android:text="Seja um fornecedor de materiais recicláveis e ajude a natureza."
+            android:textAlignment="center"
+            android:textColor="@color/greenF"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+</LinearLayout>
