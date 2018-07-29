@@ -34,8 +34,8 @@ public class cadastoMorador extends AppCompatActivity {
 
         buttonCad.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //Intent it = new Intent(cadastoMorador.this, MainActivityMorador.class);
-               // startActivity(it);
+                Intent it = new Intent(cadastoMorador.this, MainActivity.class);
+                startActivity(it);
             }
         });
     }
