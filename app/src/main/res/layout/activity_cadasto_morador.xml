@@ -1,9 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cadastoMorador">
+    android:orientation="vertical"
+    tools:context=".cadastoMorador"
+    android:background="@drawable/bgrecicla">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/criaConta"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Criar conta"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/nomeMorador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:hint="Nome completo"
+                android:inputType="text"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/idadeMorador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:hint="Data de nascimento"
+                android:inputType="number"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/cpf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:hint="CPF"
+                android:inputType="number"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/ruaMorador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:hint="Rua"
+                android:inputType="text"
+                tools:ignore="MissingConstraints" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/numeroMorador"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/bairroMorador"
+                    android:layout_marginStart="38dp"
+                    android:hint="Número"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/bairroMorador"
+                    android:layout_width="196dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="41dp"
+                    android:layout_marginTop="34dp"
+                    android:hint="Bairro"
+                    android:inputType="text"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/cepMorador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:hint="CEP"
+                android:inputType="number"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/telefoneMorador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="24dp"
+                android:hint="Telefone"
+                android:inputType="phone"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/buttonCad"
+                android:layout_width="61dp"
+                android:layout_height="64dp"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_check_circle_black_24dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
