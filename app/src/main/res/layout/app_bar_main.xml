@@ -29,6 +29,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="@color/greenR"
-        app:srcCompat="@drawable/ic_outline_add_24px" />
+        app:srcCompat="@drawable/ic_outline_add_24px"
+        tools:ignore="VectorDrawableCompat" />
 
 </android.support.design.widget.CoordinatorLayout>

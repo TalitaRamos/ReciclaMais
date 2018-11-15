@@ -1,13 +1,12 @@
 package com.example.simaw.reciclamais;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import Util.MaskUtil;
+import com.example.simaw.reciclamais.Util.MaskUtil;
+
 
 public class cadastroCentro extends AppCompatActivity {
     private EditText cnpj;

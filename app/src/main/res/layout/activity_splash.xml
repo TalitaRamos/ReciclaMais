@@ -20,8 +20,8 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="508dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="65dp"
             app:srcCompat="@drawable/recicla2" />
 
         <ImageView
@@ -29,10 +29,11 @@
             android:layout_width="81dp"
             android:layout_height="56dp"
             android:layout_alignParentEnd="true"
-            android:layout_below="@+id/imageView2"
             android:layout_marginEnd="24dp"
             android:layout_marginTop="70dp"
-            app:srcCompat="@drawable/logon" />
+            app:srcCompat="@drawable/logon"
+            android:layout_marginRight="24dp"
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 

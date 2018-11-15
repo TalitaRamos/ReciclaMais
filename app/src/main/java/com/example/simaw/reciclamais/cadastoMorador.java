@@ -7,19 +7,22 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import Util.MaskUtil;
+import com.example.simaw.reciclamais.Util.MaskUtil;
+
 
 public class cadastoMorador extends AppCompatActivity {
     private EditText cpf;
     private EditText telefoneMorador;
     private EditText cepMorador;
     private EditText nascimentoMorador;
+    private EditText nomeMorador;
     private ImageView buttonCad;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadasto_morador);
 
+        nomeMorador=(EditText)findViewById(R.id.nomeMorador);
         cpf = (EditText) findViewById(R.id.cpf);
         telefoneMorador= (EditText)findViewById(R.id.telefoneMorador);
         cepMorador=(EditText) findViewById(R.id.cepMorador);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -31,7 +32,9 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="47dp"
             android:layout_marginTop="186dp"
-            app:srcCompat="@drawable/casa" />
+            app:srcCompat="@drawable/casa"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="47dp" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -42,7 +45,10 @@
             android:layout_marginEnd="105dp"
             android:layout_marginTop="254dp"
             android:backgroundTint="@color/greenF"
-            app:srcCompat="@drawable/ic_throw_to_paper_bin" />
+            app:srcCompat="@drawable/ic_throw_to_paper_bin"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="105dp"
+            tools:ignore="VectorDrawableCompat" />
 
         <TextView
             android:id="@+id/textView5"
